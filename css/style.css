@@ -1,0 +1,351 @@
+
+
+body {
+    color: #fff;
+    background-color: #080808;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+ li{
+  list-style: none;
+  margin: 0;
+    padding: 0;
+}
+
+/*ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}*/
+
+.header{
+  margin-bottom: 114px;
+
+}
+
+.container{
+max-width: 960px;
+margin: auto;
+}
+
+
+
+.header-wrapper{
+  padding-top: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.header-main{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.menu{
+  
+}
+.menu-list{
+  display: flex;
+  margin-right: 50px;
+}
+
+.menu-list__item{
+  list-style: none;
+  margin-right: 50px;
+  
+}
+
+.menu-list__link{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 18px
+}
+
+.phone{
+  text-decoration: none;
+  font-size: 24px;
+   color: #ffff;
+}
+
+
+
+/*@media (max-width: 1199px){
+.container {
+    max-width: 960px;
+}
+}*/
+
+
+
+
+.main__title{
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+    /*font-size: 85px;*/
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.main__descr {
+    margin: 0 0 45px 0;
+    max-width: 480px;
+    font-size: 28px;
+    opacity: 0.4;
+}
+
+.offer{
+  display: flex;
+}
+
+.offer__text{
+  display: flex;
+  align-items: flex-start;
+}
+
+.offer__photo{
+  width: 30%;
+
+}
+
+.button {
+    display: block;
+    background: linear-gradient(93.53deg, #ED3125 11.43%, #E8223A 80.79%);
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.main__button{
+  margin-bottom: 40px;
+    max-width: 220px;
+    display: block;
+}
+
+/* design */
+
+.design-wrapper{
+  padding-bottom: 200px;
+}
+
+.design-text {
+   
+    margin: auto;
+    max-width: 610px;
+    width: 100%;
+
+}
+
+.section__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.4;
+}
+
+.design-list{
+  display: flex;
+}
+
+.design-list li{
+  list-style: none;
+}
+
+.design-list__item {
+    font-size: 24px;
+    color: #ccc;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.design-list__item_active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.design__descr {
+    margin: 0 0 28px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.hidden{
+  display: none!important;
+}
+
+.more {
+    color: #E8223A;
+    font-size: 16px;
+    padding: 5px;
+    line-height: 1.6;
+    background-color: transparent;
+    border: none;
+}
+
+.design-images{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.design__img{
+  display: block;
+    
+    object-fit: cover;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+/* feature */
+
+.section__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.4;
+}
+
+.feature__title{
+  margin-bottom: 35px;
+  
+}
+
+.feature-wrapper{
+  display: flex;
+
+  justify-content: space-between;
+  background-image: url(../img/money.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding-left: 50%;
+  min-height: 550px;
+}
+
+.feature__link{
+  color: #fff;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In .SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' fill='%23ffffff' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 240.835 240.835' style='enable-background:new 0 0 240.835 240.835;' xml:space='preserve'%3E%3Cg%3E%3Cpath id='Expand_Less' d='M129.007,57.819c-4.68-4.68-12.499-4.68-17.191,0L3.555,165.803c-4.74,4.74-4.74,12.427,0,17.155 c4.74,4.74,12.439,4.74,17.179,0l99.683-99.406l99.671,99.418c4.752,4.74,12.439,4.74,17.191,0c4.74-4.74,4.74-12.427,0-17.155 L129.007,57.819z'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    outline: none;
+    background-size: 30px;
+}
+
+.feature-item__title {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.feature-sub{
+padding-left: 0px;
+}
+
+.feature-sub__item{
+display: flex;
+justify-content: space-between;
+opacity: 0.5;
+font-size: 14px;
+line-height: 1.6;
+margin-bottom: 10px;
+}
+
+
+.feature-item-wrap{
+display: flex;
+}
+
+/*.timer start*/
+
+
+.timer {
+    color: #ffffff;
+    text-align: center;
+    color: #daf6ff;
+    text-shadow: 0 0 20px #e4e4e4, 0 0 20px rgb(2 120 160 / 0%);
+}
+
+
+.timer__text {
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    padding: 20px 0 0;
+    text-transform: uppercase;
+}
+
+.timer__time {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 5px 0;
+    margin-top: 0;
+}
+
+
+/* contacts */
+
+
+.contacts-form{
+  margin: auto;
+  max-width: 525px;
+  background-color: #080808;
+}
+
+.section__title{
+margin: 0;
+font-weight: bold;
+font-size: 48px;
+line-height: 1.4;
+
+}
+
+.contacts__descr {
+    margin: 0 0 30px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.5;
+    max-width: 411px;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+    display: block;
+    border: none;
+    background-color: transparent;
+    padding-left: 14px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid rgba(255,255,255,0.25);
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 0;
+    padding-top: 10px;
+    margin-top: -1px;
+    width: 100%;
+    font-size: 100%;
+}
+
+.form__button {
+    margin-top: 40px;
+    max-width: 220px;
+}
